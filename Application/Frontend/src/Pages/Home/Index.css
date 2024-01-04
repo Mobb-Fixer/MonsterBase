@@ -1,0 +1,36 @@
+
+
+
+.container{
+    margin-top: 8%;
+}
+
+.image{
+    width: 45%;
+}
+
+.title{
+    margin-top: 2%;
+}
+
+
+.btn{
+    margin-top: 3%;
+}
+
+.btn_email{
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.btn_suivant{
+    margin-left: 8%;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}

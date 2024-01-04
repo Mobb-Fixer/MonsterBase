@@ -1,0 +1,16 @@
+
+
+.btn_div{
+    margin-top: 40px;
+    margin-right: 4%;
+}
+
+.button_retour{
+    margin-top: 10px;
+    margin-right: 13.5%;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}

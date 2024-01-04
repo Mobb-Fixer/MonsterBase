@@ -1,0 +1,46 @@
+.Application {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form_button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn_retour {
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;  
+}
