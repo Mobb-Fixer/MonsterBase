@@ -46,7 +46,7 @@ app.use(express.json());
 
 app.post('/api/updateMonster', (req, res) => {
   const { nom, nombre, image } = req.body;
-  console.log('Données reçues du front-end :', req.body); // Ajout de cette ligne
+  console.log('Données reçues du front-end :', String(req.body).replace(/\n|\r/g, '')); // Ajout de cette ligne
   const sql = 'INSERT INTO canettes (nom, nombre, image) VALUES (?, ?, ?)';
   connection.query(sql, [nom, nombre, image], (err, result) => {
     if (err) {
